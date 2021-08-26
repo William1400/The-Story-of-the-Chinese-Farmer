@@ -1,1 +1,126 @@
+@font-face {
+   font-family: "SinkinSans";
+   src: url("fonts/SinkinSans-400Regular-webfont.ttf") format("truetype"),
+        url("fonts/SinkinSans-400Regular-webfont.woff") format("woff"),
+        url("fonts/SinkinSans-400Regular-webfont.eot") format("eot"),
+        url("fonts/SinkinSans-400Regular-webfont.svg") format("svg")
+}
+@font-face {
+   font-family: "OpenSans";
+   src: url("fonts/opensans/OpenSans-Regular.ttf") format("truetype");
+
+}
+   
+body {
+   font-family: "OpenSans";
+   max-width: 90%;
+   margin-left: 5%; 
+   margin-right: 5%;
+   background-color: #5697D1;
+   background-image: url("img/bgd.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right bottom;
+}  
+
+a:hover {
+   color: chocolate;
+} 
+
+a:visited {
+   color: crimson;
+}   
+
+a:visited:hover{
+   color: chocolate;
+}
+
+
+
+
+blockquote {
+   max-width: 30%;
+   margin-left: 25%;
+   margin-right: 25%;
+   font-size: 160%;
+   font-style: italic;
+   background-color: #D3D3D3;
+   border-color: firebrick;
+   border-style: solid;
+   border-width: 0px 0px 0px 3px;
+   padding-left: 30px; 
+   padding-top: 80px;
+   padding-bottom: 80px;
+   clear: both;
+}
+.farmer {
+   border-color: forestgreen;
+
+}
+
+.villager {
+   border-color: gold;
+
+}
+
+header h1 {
+   background-color: yellow;
+}
+
+.good,.bad {
+   text-transform: capitalize;
+}
+.good {
+   color: green;
+}
+.bad {
+   color: red;
+}
+
+tr:nth-child(even) {
+   background-color: #4b4a4a;
+}
+
+table, th, td {
+   border: 1px solid black;
+   text-align: center;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+#li1 {
+   background-image: url("img/bien.png");
+}
+
+#li2 {
+   background-image: url("img/mal.png");
+}
+
+#li3 {
+   background-image: url("img/chat.png");
+}
+
+#li1, #li2, #li3 {
+   background-repeat: no-repeat;
+   padding-right: 75%;
+}
+
+#p1 {
+   font-weight: bold;
+}
+
+img {
+   float: left;
+   width: 60%;
+   margin: 30px 30px 30px 0px;
+   
+}
+
+
+
+
+
+
 
